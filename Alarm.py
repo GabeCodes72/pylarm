@@ -13,17 +13,18 @@ What noise do you want to play?
 4. Battery Alert
 5. Error
 6. Alarm
+7. Windows Problem
 > """)
 if noise == "1":
-    alarmNoise = "C:/Windows/Media/Windows Notify Calendar.wav"
+    alarmNoise = "pylarm/sounds/Windows Notify Calendar.wav"
 elif noise == "2":
-    alarmNoise = "C:/Windows/Media/Windows Notify Email.wav"
+    alarmNoise = "pylarm/sounds/Windows Notify Email.wav"
 elif noise == "3":
-    alarmNoise = "C:/Windows/Media/tada.wav"
+    alarmNoise = "pylarm/sounds/tada.wav"
 elif noise == "4":
-    alarmNoise = "C:/Windows/Media/Windows Battery Low.wav"
+    alarmNoise = "pylarm/sounds/Windows Battery Low.wav"
 elif noise == "5":
-    alarmNoise = "C:/Windows/Media/Windows Critical Stop.wav"
+    alarmNoise = "pylarm/sounds/Windows Critical Stop.wav"
 elif noise == "6":
     alrmChoice = input("""
 Which alarm?
@@ -39,25 +40,25 @@ Which alarm?
 10. Alarm10
 > """)
     if alrmChoice == "1":
-        alarmNoise = "C:/Windows/Media/Alarm01.wav"
+        alarmNoise = "pylarm/sounds/Alarm01.wav"
     if alrmChoice == "2":
-        alarmNoise = "C:/Windows/Media/Alarm02.wav"
+        alarmNoise = "pylarm/sounds/Alarm02.wav"
     if alrmChoice == "3":
-        alarmNoise = "C:/Windows/Media/Alarm03.wav"
+        alarmNoise = "pylarm/sounds/Alarm03.wav"
     if alrmChoice == "4":
-        alarmNoise = "C:/Windows/Media/Alarm04.wav"
+        alarmNoise = "pylarm/sounds/Alarm04.wav"
     if alrmChoice == "5":
-        alarmNoise = "C:/Windows/Media/Alarm05.wav"
+        alarmNoise = "pylarm/sounds/Alarm05.wav"
     if alrmChoice == "6":
-        alarmNoise = "C:/Windows/Media/Alarm06.wav"
+        alarmNoise = "pylarm/sounds/Alarm06.wav"
     if alrmChoice == "7":
-        alarmNoise = "C:/Windows/Media/Alarm07.wav"
+        alarmNoise = "pylarm/sounds/Alarm07.wav"
     if alrmChoice == "8":
-        alarmNoise = "C:/Windows/Media/Alarm08.wav"
+        alarmNoise = "pylarm/sounds/Alarm08.wav"
     if alrmChoice == "9":
-        alarmNoise = "C:/Windows/Media/Alarm09.wav"
+        alarmNoise = "pylarm/sounds/Alarm09.wav"
     if alrmChoice == "10":
-        alarmNoise = "C:/Windows/Media/Alarm10.wav"
+        alarmNoise = "pylarm/sounds/Alarm10.wav"
     
 while True:
     now = datetime.datetime.now().time()
