@@ -59,7 +59,8 @@ Which alarm?
         alarmNoise = "pylarm/sounds/Alarm09.wav"
     if alrmChoice == "10":
         alarmNoise = "pylarm/sounds/Alarm10.wav"
-    
+elif noise == "7":
+    alarmNoise = "pylarm/sounds/fish.wav"
 while True:
     now = datetime.datetime.now().time()
     if start <= now <= end:
