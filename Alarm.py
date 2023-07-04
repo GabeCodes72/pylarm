@@ -16,15 +16,15 @@ What noise do you want to play?
 7. Windows Problem
 > """)
 if noise == "1":
-    alarmNoise = "pylarm/sounds/Windows Notify Calendar.wav"
+    alarmNoise = "sounds/Windows Notify Calendar.wav"
 elif noise == "2":
-    alarmNoise = "pylarm/sounds/Windows Notify Email.wav"
+    alarmNoise = "sounds/Windows Notify Email.wav"
 elif noise == "3":
-    alarmNoise = "pylarm/sounds/tada.wav"
+    alarmNoise = "sounds/tada.wav"
 elif noise == "4":
-    alarmNoise = "pylarm/sounds/Windows Battery Low.wav"
+    alarmNoise = "sounds/Windows Battery Low.wav"
 elif noise == "5":
-    alarmNoise = "pylarm/sounds/Windows Critical Stop.wav"
+    alarmNoise = "sounds/Windows Critical Stop.wav"
 elif noise == "6":
     alrmChoice = input("""
 Which alarm?
@@ -40,27 +40,27 @@ Which alarm?
 10. Alarm10
 > """)
     if alrmChoice == "1":
-        alarmNoise = "pylarm/sounds/Alarm01.wav"
+        alarmNoise = "sounds/Alarm01.wav"
     if alrmChoice == "2":
-        alarmNoise = "pylarm/sounds/Alarm02.wav"
+        alarmNoise = "sounds/Alarm02.wav"
     if alrmChoice == "3":
-        alarmNoise = "pylarm/sounds/Alarm03.wav"
+        alarmNoise = "sounds/Alarm03.wav"
     if alrmChoice == "4":
-        alarmNoise = "pylarm/sounds/Alarm04.wav"
+        alarmNoise = "sounds/Alarm04.wav"
     if alrmChoice == "5":
-        alarmNoise = "pylarm/sounds/Alarm05.wav"
+        alarmNoise = "sounds/Alarm05.wav"
     if alrmChoice == "6":
-        alarmNoise = "pylarm/sounds/Alarm06.wav"
+        alarmNoise = "sounds/Alarm06.wav"
     if alrmChoice == "7":
-        alarmNoise = "pylarm/sounds/Alarm07.wav"
+        alarmNoise = "sounds/Alarm07.wav"
     if alrmChoice == "8":
-        alarmNoise = "pylarm/sounds/Alarm08.wav"
+        alarmNoise = "sounds/Alarm08.wav"
     if alrmChoice == "9":
-        alarmNoise = "pylarm/sounds/Alarm09.wav"
+        alarmNoise = "sounds/Alarm09.wav"
     if alrmChoice == "10":
-        alarmNoise = "pylarm/sounds/Alarm10.wav"
+        alarmNoise = "sounds/Alarm10.wav"
 elif noise == "7":
-    alarmNoise = "pylarm/sounds/fish.wav"
+    alarmNoise = "sounds/fish.wav"
 while True:
     now = datetime.datetime.now().time()
     if start <= now <= end:
